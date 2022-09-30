@@ -16,21 +16,36 @@
 - With the environment activated, execute the program as explained in [Usage](#Usage):
   - `python cgg.py...`
 
+## Features 
+
 ## Usage
 
-Execute cgg.py through the command prompt<!-- using **Python 3.10 or higher**. -->
+Execute cgg.py through the command prompt: <!-- using **Python 3.10 or higher**. -->
 
-`python cgg.py [-h] [-d DIRECTORY] [-W WIDTH] [-H HEIGHT] [-m [{combinatory,pairs}]] [-v VERBOSE] colors [colors ...]`
+<p align="center">
+  <code>python cgg.py [-h] [-d DIRECTORY] [-W WIDTH] [-H HEIGHT] [-m [{combinatory,pairs}]] [-v VERBOSE] colors [colors ...]</code>
+</p>
+<br>
 
-`directory` must be enclosed in quotes.
+- `directory` must be enclosed in quotes.
 
-`width` in pixels (default is 100).
+- `width` in pixels (default is 100).
 
-`height` in pixels (default is 200).
+- `height` in pixels (default is 200).
 
-`verbose` enables console output.
+- `mode` Choose between combinatory or pairs mode. 
 
-`colors` list of hexadecimal color values separated by whitespaces.
+    - `-c COMBINATORY` Generates a gradient for every combination of the colors introduced.
+    
+    - `-p PAIRS` Generates gradients by selecting the colors introduced in pairs of two.
+
+- `verbose` enables console output.
+
+- `colors` list of hexadecimal color values separated by whitespaces.
+
+Example:
+
+    python cgg.py -v -W 10 -H 10 -m pairs ff0000 00ff00 0000ff ffffff
 
 ---
 <p align="center">

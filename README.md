@@ -18,6 +18,18 @@
 
 ## Features 
 
+<details>
+    <summary>TO-DO</summary>
+  
+- [ ] Option to introduce color list as text file.
+
+</details>
+
+- [x] Generates a gradient image from two colors
+- [x] Generates gradient images from multiple colors by:
+  - [x] Making every combination possible of 2 colors.
+  - [x] Making pairs as long as the color amount is even.
+
 ## Usage
 
 Execute cgg.py through the command prompt: <!-- using **Python 3.10 or higher**. -->

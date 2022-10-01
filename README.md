@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>Small program to generate gradient images combinating a set of given hex colours</b><br><br>
-  <img src="https://img.shields.io/badge/Project-WIP-orange"> <img src="https://img.shields.io/badge/Documentation-Outdated-orange">
+  <img src="https://img.shields.io/badge/Project-WIP-orange"> <img src="https://img.shields.io/badge/Documentation-Up%20to%20date-success"><!--<img src="https://img.shields.io/badge/Documentation-Outdated-orange">--> 
 </p>
 
 ## Setup

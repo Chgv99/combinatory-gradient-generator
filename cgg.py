@@ -35,7 +35,7 @@ args = parser.parse_args()
 #else:
 #    result_path = "./result/"
 
-result_path = args.directory
+result_path = args.directory + "/"
 if not os.path.exists(result_path):
     os.makedirs(result_path)
 
